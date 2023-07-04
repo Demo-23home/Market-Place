@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render,redirect
 from item.models import Item,Category
 # Create your views here.
 def index(request):
@@ -12,3 +12,7 @@ def index(request):
 
 def contact(request):
     return render(request,'core/contact.html')
+
+
+
+
