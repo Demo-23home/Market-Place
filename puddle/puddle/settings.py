@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'item',
     'users',
     'dashboard',
+    'conversation',
 ]
 
 MIDDLEWARE = [
